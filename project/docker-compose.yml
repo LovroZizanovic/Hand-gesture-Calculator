@@ -1,0 +1,20 @@
+services:
+  gesture-calculator:
+    build: .
+    image: hand-calculator:latest
+    container_name: hand_calculator_app
+
+    environment:
+      - DISPLAY=${DISPLAY}
+
+    volumes:
+      - ".:/app"
+      - /tmp/.X11-unix:/tmp/.X11-unix:ro
+
+    devices:
+      - /dev/video0:/dev/video0
+      - /dev/video1:/dev/video1
+
+    network_mode: "host"
+    ipc: "host"
+    pid: "host"
