@@ -76,7 +76,7 @@ class DifficultyScreen(tk.Frame):
             ("LAGANO", "Bez tajmera", TEXT_GREEN, "#0d2a1a",
              "Slobodan unos.\nIzgradi izraz gestama,\nprogram racuna.", "Lagano"),
             ("SREDNJE", "2 broja • 1 operacija •  25s", TEXT_ORANGE, "#2a1a00",
-             "Prikazuje se meta.\nSlozi izraz s 2 broja \ndosegnes cilj u vremenu.", "Srednje"),
+             "Prikazuje se meta.\nSlozi izraz s 2 broja \nda dosegnes cilj u vremenu.", "Srednje"),
             ("TESKO", "3 broja • 2 operacije  •  20s", TEXT_RED, "#2a0000",
              "Prikazuje se meta.\nSlozi izraz s 3 broja \nda dosegnes cilj brzo!", "Tesko"),
         ]
@@ -93,6 +93,19 @@ class DifficultyScreen(tk.Frame):
             tk.Button(card, text=f"  Igraj {title}  ", bg=color, fg=BG_DARK, font=("Segoe UI", 10, "bold"),
                       relief="flat", bd=0, cursor="hand2", pady=7, padx=12,
                       command=lambda k=key: self.on_select(k)).pack()
+            
+        tk.Label(self, text="Fakultet elektrotehnike, računarstva i informacijskih tehnologija", font=("Segoe UI", 10, "bold"),
+                 fg=TEXT_DIM, bg=BG_DARK).pack(pady=(50, 0))
+        tk.Label(self, text="Studij: Robotika i umjetna inteligencija", font=("Segoe UI", 8),
+                 fg=TEXT_DIM, bg=BG_DARK).pack(pady=(0, 5))
+        tk.Label(self, text="Kolegij: Robotski vid", font=("Segoe UI", 8),
+                 fg=TEXT_DIM, bg=BG_DARK).pack(pady=(0, 5))
+        tk.Label(self, text="Izradili: Luka Idžanović, Lovro Žižanović, Nina Sučić, Dino Veršić", font=("Segoe UI", 8),
+                 fg=TEXT_DIM, bg=BG_DARK).pack(pady=(0, 5))
+        tk.Label(self, text="Mentor: doc. dr. sc. Petra Pejić", font=("Segoe UI", 8),
+                 fg=TEXT_DIM, bg=BG_DARK).pack(pady=(0, 5))
+            
+            
 
 
 class CalculatorApp(tk.Frame):
