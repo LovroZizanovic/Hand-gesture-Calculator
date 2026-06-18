@@ -104,6 +104,8 @@ class DifficultyScreen(tk.Frame):
                  fg=TEXT_DIM, bg=BG_DARK).pack(pady=(0, 5))
         tk.Label(self, text="Mentor: doc. dr. sc. Petra Pejić", font=("Segoe UI", 8),
                  fg=TEXT_DIM, bg=BG_DARK).pack(pady=(0, 5))
+        tk.Label(self, text="Godina: 2025./2026.", font=("Segoe UI", 8),
+                 fg=TEXT_DIM, bg=BG_DARK).pack(pady=(0, 5))
             
             
 
