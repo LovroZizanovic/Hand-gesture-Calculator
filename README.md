@@ -113,3 +113,12 @@ hand-gesture-calculator/
 - Dijeljenje radi samo kada je rezultat cijeli broj
 - Potrebno je dobro osvjetljenje za pouzdanu detekciju ruke
 - Docker prosljeđivanje webcama podržano je samo na Linuxu
+
+## Autori
+-Luka Idžanović
+-Dino Veršić
+-Nina Sučić
+-Lovro Žižanović
+
+Mentor: doc. dr. sc. Petra Pejić
+Fakultet: FERIT Os
