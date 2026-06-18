@@ -114,7 +114,7 @@ hand-gesture-calculator/
 - Potrebno je dobro osvjetljenje za pouzdanu detekciju ruke
 - Docker prosljeđivanje webcama podržano je samo na Linuxu
 
----
+
 ## Autori
 -Luka Idžanović
 -Dino Veršić
@@ -124,4 +124,3 @@ hand-gesture-calculator/
 
 Mentor: doc. dr. sc. Petra Pejić
 Fakultet: FERIT Os
----
