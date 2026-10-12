@@ -123,4 +123,4 @@ hand-gesture-calculator/
 
 
 Mentor: doc. dr. sc. Petra Pejić
-Fakultet: FERIT Os
+Fakultet: FERIT Os, 1. godina diplomskog studija, Umjetna inteligencija i Robotika
